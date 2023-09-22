@@ -6,6 +6,8 @@
   display: flex;
   flex-direction: column;
   gap: 14px;
+  justify-content: center;
+  margin-bottom: 44px;
 }
 
 .fruit-card-item {
@@ -49,6 +51,11 @@
 .orange {
   display: none;
   background: #f47f4c;
+}
+
+.kiwi {
+  display: none;
+  background: #98B37E;
 }
 
 .fruit-card-name {
@@ -104,8 +111,16 @@
   line-height: 1.28;
   letter-spacing: -0.04em;
   text-transform: uppercase;
+transition: all 250ms ease-in-out;
+}
 
-  fill: white;
+.for-order-btn:hover,
+.for-order-btn:focus {
+
+  background-color: var(--white);
+  stroke: var(--green);
+  color: var(--green);
+
 }
 
 .button-text {
@@ -122,5 +137,41 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 16px;
+  }
+
+  .plum {
+    display: block;
+  }
+  
+  .orange {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .organic-fruit-section {
+    padding-bottom: 239px;
+  }
+
+  .fruit-card-list {
+ 
+    gap: 24px;}
+
+    .fruit-card-item  {
+      width: 389px;
+    }
+
+  .kiwi {
+    display: block;
+  }
+
+  .for-order-btn {
+    width: 114px;
+    height: 114px;
+
+    font-size: 18px;
+font-weight: 500;
+line-height: 1.33; 
+letter-spacing: -0.04em;
   }
 }
