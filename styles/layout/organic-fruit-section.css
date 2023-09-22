@@ -170,8 +170,8 @@ transition: all 250ms ease-in-out;
     height: 114px;
 
     font-size: 18px;
-font-weight: 500;
-line-height: 1.33; 
-letter-spacing: -0.04em;
+    font-weight: 500;
+    line-height: 1.33; 
+    letter-spacing: -0.04em;
   }
 }

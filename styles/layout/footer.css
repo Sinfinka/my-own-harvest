@@ -1,0 +1,31 @@
+.footer-section {
+  background-color: var(--white);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-img {
+  width: 335px;
+  height: 172px;
+}
+
+.footer-logo {
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.footer-navigation {
+  display: block;
+}
+
+.footer-navigation .nav-list {
+  display: flex;
+  gap: 20px;
+}
