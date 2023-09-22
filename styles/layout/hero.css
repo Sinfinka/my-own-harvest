@@ -10,9 +10,11 @@
 }
 
 .main-title {
+  width: 280px;
   position: absolute;
   top: -5%;
-  left: 0%;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
   font-size: 28px;
   font-weight: 500;
@@ -120,6 +122,7 @@
 .hero-right {
   display: flex;
   flex-direction: column;
+  align-items: center;
   order: 3;
 }
 
@@ -191,6 +194,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero-section {
+    padding-bottom: 137px;
+  }
+
   .hero-section .container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -201,7 +208,7 @@
   }
 
   .main-title {
-    max-width: 710px;
+    width: 710px;
     font-size: 50px;
     line-height: 1.08;
   }
@@ -237,6 +244,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .hero-section {
+    padding-bottom: 150px;
+  }
+
   .hero-section .container {
     flex-wrap: nowrap;
     column-gap: 0px;
@@ -244,8 +255,7 @@
   }
   .main-title {
     font-size: 64px;
-    max-width: 898px;
-    left: 15%;
+    width: 898px;
   }
 
   .hero-left {
@@ -265,6 +275,7 @@
   .shop-btn {
     width: 114px;
     height: 114px;
+    bottom: -1%;
     font-size: 28px;
   }
 

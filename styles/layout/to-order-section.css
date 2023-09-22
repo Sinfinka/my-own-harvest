@@ -1,0 +1,142 @@
+.to-order {
+  padding-bottom: 80px;
+}
+
+.subtitle {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 14px;
+  text-align: center;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+
+.paragraph.to-order-text {
+  text-align: center;
+  max-width: 335px;
+  margin-bottom: 44px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.steps-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 44px;
+}
+
+.step-btn-wrapper {
+  width: 335px;
+  height: 112px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  border-radius: 20px;
+  background-color: var(--white);
+}
+
+.step-btn {
+  width: 136px;
+  height: 48px;
+  border-radius: 200px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: -0.04em;
+}
+
+.first {
+  background-color: var(--red);
+}
+
+.second {
+  background-color: var(--green);
+}
+.third {
+  background-color: var(--yellow);
+}
+
+.step-text {
+  max-width: 135px;
+  color: var(--black);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+}
+
+.fruits-gif-wrapper {
+  width: 335px;
+  height: 476px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../../images/second-section/fruits.gif);
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .to-order {
+    padding-bottom: 144px;
+  }
+
+  .subtitle {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+  }
+
+  .paragraph.to-order-text {
+    max-width: 511px;
+  }
+
+  .steps-list {
+    gap: 24px;
+    padding-bottom: 80px;
+  }
+
+  .step-btn-wrapper {
+    width: 389px;
+    height: 128px;
+  }
+
+  .step-text {
+    max-width: 199px;
+  }
+
+  .fruits-gif-wrapper {
+    width: 704px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .to-order {
+    padding-bottom: 150px;
+  }
+
+  .subtitle {
+    max-width: 624px;
+  }
+
+  .steps-list {
+    flex-direction: row;
+  }
+
+  .fruits-gif-wrapper {
+    width: 860px;
+  }
+}
